@@ -1,56 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-
-
-<script type="text/javascript" src="js.js"></script>
-
-	<title>ДЗ к уроку 2</title>
-</head>
-
-<body>
-	
-<style type="text/css">
-
-/*body{padding: 100px;}*/
-.Buttons
-{
-	display: flex;
-	align-items: center;
-	flex-direction: row;
-	justify-content: center;
-
-box-shadow: 1px 3px 9px 8px rgba(0,0,0,0.84);
-width: 50%;
-height: 150px;
-margin: auto;
-}	
-.Buttons button
-{width: 30%; height: 80%; margin: 10px; border-radius: 5px;}
- h1
-{
-text-align: center; 
-margin: 100px auto 100px auto;
-text-shadow: #474747 3px 5px 2px;
-font-size: 50px;
-}
-
-</style>
-
-<h1>Hello world</h1>
-
-<div class="Buttons">
-<button onclick="a1()">Button 1</button>
-<button onclick="a2()">Button 2</button>
-<button onclick="a3()">Button 3</button>
-</div>
-
-
-
-
-
-<!-- <script type="text/javascript">
-// Функция обработки нажатия кнопки 1	
 function a1()
 {
 location.replace("http://www.google.com");	
@@ -127,16 +74,4 @@ var footer=document.createElement('div');
 footer.style.cssText = "color: blue; border: 1px solid black; height: 100px; background-color: brown;"; 
 footer.innerHTML = "Footer";
 document.body.appendChild(footer);
-
 }
-
-</script> -->
-
-
-
-
-
-
-</body>
-
-</html>
